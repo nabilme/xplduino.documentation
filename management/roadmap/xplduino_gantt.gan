@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="xplduino" company="" webLink="http://code.google.com/p/xplduino" view-date="2012-09-09" view-index="0" gantt-divider-location="716" resource-divider-location="300" version="2.0">
+<project name="xplduino" company="" webLink="http://code.google.com/p/xplduino" view-date="2012-09-04" view-index="0" gantt-divider-location="716" resource-divider-location="300" version="2.0">
     <description/>
     <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
-        <field id="0" name="Nom" width="56" order="0"/>
-        <field id="1" name="Rôle par défaut" width="43" order="1"/>
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -47,7 +47,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="41" name="# HARDWARE" color="#8cb6ce" meeting="false" start="2012-07-20" duration="73" complete="0" expand="true">
-            <task id="0" name="main board SMB atmega1284 v0.0" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="true">
+            <task id="0" name="main board SMB atmega1284 v0.0" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false">
                 <task id="15" name="Specification" color="#8cb6ce" meeting="false" start="2012-09-20" duration="1" complete="0" expand="true"/>
                 <task id="5" name="Electrical drawing" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="true">
                     <task id="6" name="Design" color="#8cb6ce" meeting="false" start="2012-09-15" duration="1" complete="0" expand="true"/>
@@ -64,6 +64,7 @@
             </task>
             <task id="17" name="4 inputs 4 dimmers board ATTiny2313 v0.0" color="#8cb6ce" meeting="false" start="2012-07-20" duration="73" complete="0" expand="true">
                 <task id="18" name="Specification" color="#8cb6ce" meeting="false" start="2012-07-20" duration="11" complete="0" expand="false"/>
+                <task id="85" name="Prototype" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="false"/>
                 <task id="19" name="Electrical drawing" color="#8cb6ce" meeting="false" start="2012-08-17" duration="46" complete="0" expand="true">
                     <task id="20" name="Design" color="#8cb6ce" meeting="false" start="2012-08-17" duration="1" complete="0" expand="false"/>
                     <task id="21" name="Validation" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false"/>
@@ -77,9 +78,9 @@
                     <task id="27" name="Ordering" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="false"/>
                 </task>
             </task>
-            <task id="43" name="4 inputs 4 relays board ATTiny2313 v0.0" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false">
+            <task id="43" name="4 inputs 4 relays board ATTiny2313 v0.0" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="true">
                 <task id="44" name="Specification" color="#8cb6ce" meeting="false" start="2012-09-20" duration="1" complete="0" expand="false"/>
-                <task id="45" name="Electrical drawing" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false">
+                <task id="45" name="Prototype" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false">
                     <task id="46" name="Design" color="#8cb6ce" meeting="false" start="2012-09-15" duration="1" complete="0" expand="false"/>
                     <task id="47" name="Validation" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false"/>
                 </task>
@@ -92,6 +93,48 @@
                     <task id="53" name="Ordering" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="false"/>
                 </task>
             </task>
+            <task id="74" name="Led driver board" color="#8cb6ce" meeting="false" start="2012-09-09" duration="23" complete="0" expand="true">
+                <task id="82" name="Specification" color="#8cb6ce" meeting="false" start="2012-09-20" duration="1" complete="0" expand="false"/>
+                <task id="84" name="Prototype" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="79" name="Electrical drawing" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="true">
+                    <task id="80" name="Design" color="#8cb6ce" meeting="false" start="2012-09-15" duration="1" complete="0" expand="false"/>
+                    <task id="81" name="Validation" color="#8cb6ce" meeting="false" start="2012-09-15" duration="17" complete="0" expand="false"/>
+                </task>
+                <task id="76" name="PCB" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="true">
+                    <task id="77" name="Creation" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="false"/>
+                    <task id="78" name="Validation" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="false"/>
+                </task>
+                <task id="75" name="Creation" color="#8cb6ce" meeting="false" start="2012-10-01" duration="1" complete="0" expand="false"/>
+            </task>
+        </task>
+        <task id="54" name="# FIRMWARE" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true">
+            <task id="55" name="Parser xpl" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true">
+                <task id="56" name="compact version (small MCU)" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="57" name="flexible version (strong MCU)" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="58" name="Ethernet ENC28J60 management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true">
+                <task id="59" name="interrupts management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="60" name="DHCP management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="61" name="UDP Broadcast management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="64" name="Webserver" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="65" name="Xchange protocol implementation" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            <task id="62" name="SD reader" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            <task id="70" name="Relays board firmware" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="false">
+                <task id="71" name="Slave I2C implementation" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="73" name="Digital inputs management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="66" name="Dimmers board firmware" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true">
+                <task id="67" name="Slave I2C implementation" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="69" name="Multi-channels management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="72" name="Digital inputs management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+                <task id="68" name="Autonomous mode implementation" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="86" name="# SOFTWARE" color="#ff6666" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true">
+            <task id="87" name="Switch management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            <task id="88" name="Lighting management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
+            <task id="89" name="Shutter management" color="#8cb6ce" meeting="false" start="2012-09-09" duration="1" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -104,22 +147,23 @@
         <allocation task-id="4" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
         <allocation task-id="20" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
         <allocation task-id="24" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="32" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
-        <allocation task-id="36" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
         <allocation task-id="46" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
         <allocation task-id="50" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="78" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="80" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
         <allocation task-id="6" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="20" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="23" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="24" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="32" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="35" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="36" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="46" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="49" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="50" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="78" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
@@ -131,9 +175,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="447" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="133" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="132" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="437" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="130" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="130" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
